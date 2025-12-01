@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: Employees
+    description: "Employee table from SQL Server"
+
+    columns:
+      - name: EmployeeID
+      - name: FirstName
+      - name: LastName
+      - name: Age
+      - name: Department
+      - name: JoinDate
