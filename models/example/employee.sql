@@ -5,4 +5,5 @@ select
     Age,
     Department,
     JoinDate
-from dbo.Employees
+from {{ source('dbo', 'Employees') }}
+

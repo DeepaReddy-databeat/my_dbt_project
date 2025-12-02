@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: employees_transformed
+    description: "Employee dimension table created by dbt."
+    columns:
+      - name: employee_id
+        description: "Unique ID of the employee."
+        tests:
+          - not_null
+          - unique
+
+      - name: first_name
+        description: "Employee's first name."
+
+      - name: last_name
+        description: "Employee's last name."
+      - name: age
+        description: "Age of Employee."
+
+      - name: department
+        description: "Department name transformed to uppercase."
+
+      - name: yearsatcompany
+        description: "Number of years since employee joined the company."

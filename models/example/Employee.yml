@@ -1,13 +1,14 @@
 version: 2
 
-models:
-  - name: Employees
+sources:
+  - name: dbo
     description: "Employee table from SQL Server"
-
-    columns:
-      - name: EmployeeID
-      - name: FirstName
-      - name: LastName
-      - name: Age
-      - name: Department
-      - name: JoinDate
+    tables:
+      - name: Employees
+        columns:
+          - name: EmployeeID
+          - name: FirstName
+          - name: LastName
+          - name: Age
+          - name: Department
+          - name: JoinDate
