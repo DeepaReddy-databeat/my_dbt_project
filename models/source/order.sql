@@ -5,3 +5,4 @@ select
     cast(Price  as float) as price
 from {{ source('dbo', 'Orders') }}
 
+
