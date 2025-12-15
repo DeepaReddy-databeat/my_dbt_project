@@ -9,6 +9,6 @@ models:
         description: "order name"
       - name: address
         description: "address of order"
-      - name: price
+      - name: total_price
         description: "aggregation of price"
 
