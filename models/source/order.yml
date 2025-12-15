@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: dbo
+    description: "Order table from SQL Server"
+    tables:
+      - name: Orders
+        columns:
+          - name: OrderId
+          - name: OrderName
+          - name: Address
+          - name: Price

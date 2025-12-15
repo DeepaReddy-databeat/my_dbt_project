@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: order_transformed
+    description: "Order dimension table created by dbt."
+    columns:
+
+      - name: order_name
+        description: "order name"
+      - name: address
+        description: "address of order"
+      - name: price
+        description: "aggregation of price"
+
