@@ -35,5 +35,5 @@ models:
       +materialized: table
     core:
       +materialized: table
-    
+ 
 
