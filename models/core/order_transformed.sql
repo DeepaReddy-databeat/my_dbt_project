@@ -3,6 +3,6 @@
 select
     order_name ,
     address,
-    sum(price) as price
+    cast(sum(price) as float) as price
 from {{ ref('order') }}
 group by order_name,address
