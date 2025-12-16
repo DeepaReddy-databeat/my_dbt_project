@@ -1,3 +1,3 @@
 select *
 from {{ ref('order_transformed') }}
-where price < 0
+where total_price < 0
