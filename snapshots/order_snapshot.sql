@@ -14,5 +14,4 @@ SELECT
     price,
     address
 FROM {{ ref('order') }}
-
 {% endsnapshot %}
