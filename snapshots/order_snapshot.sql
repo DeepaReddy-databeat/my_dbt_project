@@ -7,6 +7,8 @@
       check_cols=['price', 'address']
     ) 
 }}
+
+
 SELECT
     order_id,
     price,
