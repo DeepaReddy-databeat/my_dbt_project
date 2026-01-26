@@ -36,4 +36,16 @@ models:
     core:
       +materialized: table
  
+seeds:                                    
+   my_dbt_project:  
+     order_details:
+      +column_types:
+        order_id: int
+        order_type: nvarchar(100)
+        priority: nvarchar(50)
+        account_manager: nvarchar(100)
+        region: nvarchar(50)
+
+
+
 

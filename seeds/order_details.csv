@@ -1,0 +1,6 @@
+order_id,order_type,priority,account_manager,region
+1,Internal,High,Alice,East
+2,External,Medium,Bob,South
+3,Subscription,Low,Carol,West
+4,Sponsorship,High,David,North
+5,External,Low,Eve,Midwest
