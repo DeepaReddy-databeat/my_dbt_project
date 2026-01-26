@@ -8,7 +8,6 @@
     ) 
 }}
 
-
 SELECT
     order_id,
     price,
