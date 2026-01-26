@@ -1,5 +1,4 @@
 {% snapshot order_snapshot %}
-
 {{ 
     config(
       target_schema='dbo',
@@ -8,7 +7,6 @@
       check_cols=['price', 'address']
     ) 
 }}
-
 SELECT
     order_id,
     price,
